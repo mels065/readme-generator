@@ -23,7 +23,7 @@ const license = {
         badge: "[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)",
         link: "https://creativecommons.org/licenses/by-nc/4.0/"
     },
-    "attribution-noderivates-4.0-international": {
+    "attribution-noderivatives-4.0-international": {
         badge: "[![License: CC BY-ND 4.0](https://licensebuttons.net/l/by-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nd/4.0/)",
         link: "https://creativecommons.org/licenses/by-nd/4.0/"
     },

@@ -1,8 +1,8 @@
-# Test
+# Wumbo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This is a test.
+The study of Wumbology
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@ This is a test.
 
 ## Installation
 
-npm i test
+Did you set it to Wumbo?
 
 ## Usage
 
-node index.js
+It's first grade, Spongebob
 
 ## Contributing
 
@@ -27,5 +27,12 @@ Be excellent to each other.
 
 ## Tests
 
-Set it to wumbo.
+Wumbo
+
+## License
+
+MIT
+
+[License Information](https://opensource.org/licenses/MIT)
+    
   

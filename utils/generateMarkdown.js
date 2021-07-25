@@ -29,9 +29,9 @@ function renderLicenseSection(license) {
   if (isLicense(formattedLicense)) {
     return `## License
 
-    ${license}
+${license}
 
-    ${renderLicenseLink(license)}
+${renderLicenseLink(license)}
     `;
   } else {
     return "";
@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ${renderLicenseBadge(data.license)}
 
 ## Description
 
@@ -65,6 +65,8 @@ ${data.contributing}
 ## Tests
 
 ${data.tests}
+
+${renderLicenseSection(data.license)}
   `;
 }
 

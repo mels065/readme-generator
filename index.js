@@ -34,6 +34,33 @@ const questions = [
         name: "tests",
         type: "editor",
         message: "What are the instructions for running tests?"
+    },
+    {
+        name: "license",
+        type: "list",
+        choices: [
+            "None",
+            "Apache 2.0",
+            "BSD 3-Clause",
+            "BSD 2-Clause",
+            "Attribution 4.0 International",
+            "Attribution Sharealike 4.0 International",
+            "Attribution Noncommercial 4.0 International",
+            "Attribution NoDerivatives 4.0 International",
+            "Attribution Noncommercial Sharealike 4.0 International",
+            "Attribution Noncommerical NoDerivatives 4.0 International",
+            "Eclipse",
+            "GNU GPL V3",
+            "GNU GPL V2",
+            "GNU AGPL V3",
+            "GNU LGPL V3",
+            "GNU FDL V1.3",
+            "IBM",
+            "MIT",
+            "Mozilla",
+            "zLib"
+        ],
+        message: "Pick your license"
     }
 ];
 
