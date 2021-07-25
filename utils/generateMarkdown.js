@@ -18,13 +18,25 @@ function renderLicenseLink(license) {
   if (isLicense(formattedLicense)) {
     return `[License Information](${licenses[formattedLicense].link})`
   } else {
-    return "H";
+    return "";
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const formattedLicense = formatLicenseInput(license);
+  if (isLicense(formattedLicense)) {
+    return `## License
+
+    ${license}
+
+    ${renderLicenseLink(license)}
+    `;
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
