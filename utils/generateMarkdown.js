@@ -45,6 +45,10 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.description}
+
+## Table of Contents
+
+${generateTableOfContents(data)}
   `;
 }
 
@@ -55,6 +59,24 @@ function formatLicenseInput(license) {
 
 function isLicense(formattedLicense) {
   return licenses.hasOwnProperty(formattedLicense);
+}
+
+function generateTableOfContents(data) {
+  const tableOfContents = [
+    "Description",
+    "Installation",
+    "Usage",
+    "License",
+    "Contributing",
+    "Tests",
+    "Questions"
+  ];
+
+  if (!isLicense(data.license)) tableOfContents.splice(3, 1);
+
+  return tableOfContents.map(
+    (item, i) => `${i+1}. [${item}](#${item.toLowerCase()})`
+  ).join("\n")
 }
 
 module.exports = generateMarkdown;
