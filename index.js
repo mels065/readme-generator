@@ -19,6 +19,16 @@ const questions = [
         name: "installation",
         type: "editor",
         message: "How do you install the project?"
+    },
+    {
+        name: "usage",
+        type: "editor",
+        message: "How do you use this application?"
+    },
+    {
+        name: "contributing",
+        type: "editor",
+        message: "What guidelines must developers follow when contributing?"
     }
 ];
 

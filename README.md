@@ -2,7 +2,7 @@
 
 ## Description
 
-Test
+This is a test
 
 ## Table of Contents
 
@@ -15,5 +15,13 @@ Test
 
 ## Installation
 
-npm install test
+npm i test
+
+## Usage
+
+Run `node index.js`, and follow the prompts.
+
+## Contributing
+
+Be excellent to each other.
   
