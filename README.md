@@ -1,4 +1,4 @@
-# Wumbo [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# Wumbo [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-It is a project
+The study of Wumbology
 
 ## Installation
 
@@ -19,21 +19,21 @@ Set it to Wumbo
 
 ## Usage
 
-Eat at Joe's
+It's first grade, Spongebob
 
 ## Contributing
 
-Steve
+Pet your dog
 
 ## Tests
 
-Run all the tests
+Taste the rainbow
 
 ## License
 
-BSD 3-Clause
+Eclipse
 
-[License Information](https://opensource.org/licenses/BSD-3-Clause)
+[License Information](https://www.eclipse.org/legal/epl-v10.html)
     
 
 ## Questions
@@ -41,4 +41,8 @@ BSD 3-Clause
 All questions can be asked on Github or by emailing me
 
 [Github](https://www.github.com/mels065)
+
+For sending emails, be sure to mark the beginning of subject with "Wumbo Issue"
+
+[Email](mailto:mellusbrandon@gmail.com)
   

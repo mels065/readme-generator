@@ -73,6 +73,10 @@ ${renderLicenseSection(data.license)}
 All questions can be asked on Github or by emailing me
 
 [Github](https://www.github.com/${data.githubName})
+
+For sending emails, be sure to mark the beginning of subject with "${data.title} Issue"
+
+[Email](mailto:${data.email})
   `;
 }
 
