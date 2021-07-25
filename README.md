@@ -12,4 +12,8 @@ Test
 4. [Contributing](#contributing)
 5. [Tests](#tests)
 6. [Questions](#questions)
+
+## Installation
+
+npm install test
   

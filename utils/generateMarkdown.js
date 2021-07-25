@@ -49,6 +49,10 @@ ${data.description}
 ## Table of Contents
 
 ${generateTableOfContents(data)}
+
+## Installation
+
+${data.installation}
   `;
 }
 

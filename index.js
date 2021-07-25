@@ -14,6 +14,11 @@ const questions = [
         name: "description",
         type: "editor",
         message: "Describe your project:"
+    },
+    {
+        name: "installation",
+        type: "editor",
+        message: "How do you install the project?"
     }
 ];
 
