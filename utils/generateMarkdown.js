@@ -42,13 +42,13 @@ ${renderLicenseLink(license)}
 function generateMarkdown(data) {
   return `# ${data.title} ${renderLicenseBadge(data.license)}
 
-## Description
-
-${data.description}
-
 ## Table of Contents
 
 ${generateTableOfContents(data)}
+
+## Description
+
+${data.description}
 
 ## Installation
 

@@ -1,8 +1,4 @@
-# Wumbo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Description
-
-The study of Wumbology
+# Wumbo [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Contents
 
@@ -13,26 +9,30 @@ The study of Wumbology
 5. [Tests](#tests)
 6. [Questions](#questions)
 
+## Description
+
+It's about Wumbo
+
 ## Installation
 
-Did you set it to Wumbo?
+Did you set it to wumbo?
 
 ## Usage
 
-It's first grade, Spongebob
+Taste the rainbow
 
 ## Contributing
 
-Be excellent to each other.
+Be excellent to each other
 
 ## Tests
 
-Wumbo
+Crazy Train
 
 ## License
 
-MIT
+Mozilla
 
-[License Information](https://opensource.org/licenses/MIT)
+[License Information](https://www.mozilla.org/en-US/MPL/)
     
   
