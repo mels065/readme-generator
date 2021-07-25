@@ -4,7 +4,7 @@ const licenses = require("./licenses");
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const formattedLicense = formatLicenseInput(license);
-  if (licenses.hasOwnProperty(formattedLicense)) {
+  if (isLicense(formattedLicense)) {
     return licenses[formattedLicense].badge;
   } else {
     return "";
@@ -13,7 +13,14 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const formattedLicense = formatLicenseInput(license);
+  if (isLicense(formattedLicense)) {
+    return `[License Information](${licenses[formattedLicense].link})`
+  } else {
+    return "H";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -29,6 +36,10 @@ function generateMarkdown(data) {
 // Returns a formatted string for license inputs
 function formatLicenseInput(license) {
   return license.split(" ").join("-").toLowerCase();
+}
+
+function isLicense(formattedLicense) {
+  return licenses.hasOwnProperty(formattedLicense);
 }
 
 module.exports = generateMarkdown;
