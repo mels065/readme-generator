@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a test
+This is a test.
 
 ## Table of Contents
 
@@ -19,9 +19,13 @@ npm i test
 
 ## Usage
 
-Run `node index.js`, and follow the prompts.
+node index.js
 
 ## Contributing
 
 Be excellent to each other.
+
+## Tests
+
+Set it to wumbo.
   

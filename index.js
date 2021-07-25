@@ -29,6 +29,11 @@ const questions = [
         name: "contributing",
         type: "editor",
         message: "What guidelines must developers follow when contributing?"
+    },
+    {
+        name: "tests",
+        type: "editor",
+        message: "What are the instructions for running tests?"
     }
 ];
 
