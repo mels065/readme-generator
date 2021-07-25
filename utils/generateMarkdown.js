@@ -67,6 +67,12 @@ ${data.contributing}
 ${data.tests}
 
 ${renderLicenseSection(data.license)}
+
+## Questions
+
+All questions can be asked on Github or by emailing me
+
+[Github](https://www.github.com/${data.githubName})
   `;
 }
 

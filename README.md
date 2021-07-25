@@ -1,4 +1,4 @@
-# Wumbo [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Wumbo [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Table of Contents
 
@@ -11,28 +11,34 @@
 
 ## Description
 
-It's about Wumbo
+It is a project
 
 ## Installation
 
-Did you set it to wumbo?
+Set it to Wumbo
 
 ## Usage
 
-Taste the rainbow
+Eat at Joe's
 
 ## Contributing
 
-Be excellent to each other
+Steve
 
 ## Tests
 
-Crazy Train
+Run all the tests
 
 ## License
 
-Mozilla
+BSD 3-Clause
 
-[License Information](https://www.mozilla.org/en-US/MPL/)
+[License Information](https://opensource.org/licenses/BSD-3-Clause)
     
+
+## Questions
+
+All questions can be asked on Github or by emailing me
+
+[Github](https://www.github.com/mels065)
   
