@@ -1,4 +1,4 @@
-# Wumbo [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+# README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
@@ -11,29 +11,31 @@
 
 ## Description
 
-The study of Wumbology
+A command line application built with Node.js that allows the user to generate a README.md file by following the prompts.
 
 ## Installation
 
-Set it to Wumbo
+Run `git clone https://github.com/mels065/readme-generator.git` in your command line (make sure Git is installed first).
 
 ## Usage
 
-It's first grade, Spongebob
+Watch this video for instructions on running:
+
+https://drive.google.com/file/d/15OiVwT-Gq4tr2Aa4AtBjUua-uM_IiZHF/view
 
 ## Contributing
 
-Pet your dog
+Create a pull request with details on what you are adding/changing.
 
 ## Tests
 
-Taste the rainbow
+TBD
 
 ## License
 
-Eclipse
+MIT
 
-[License Information](https://www.eclipse.org/legal/epl-v10.html)
+[License Information](https://opensource.org/licenses/MIT)
     
 
 ## Questions
@@ -42,7 +44,7 @@ All questions can be asked on Github or by emailing me
 
 [Github](https://www.github.com/mels065)
 
-For sending emails, be sure to mark the beginning of subject with "Wumbo Issue"
+For sending emails, be sure to mark the beginning of subject with "README Generator Issue"
 
 [Email](mailto:mellusbrandon@gmail.com)
   
